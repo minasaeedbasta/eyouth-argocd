@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: nginx
+    path: apps/nginx
     repoURL: https://github.com/minasaeedbasta/eyouth-argocd.git
     targetRevision: HEAD
   syncPolicy:
